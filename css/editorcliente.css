@@ -1,0 +1,104 @@
+body{
+    background-image: url(../src/panelbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+
+}
+/* Estilos para el card */
+#Editor{
+    align-items: left;
+    justify-content: left;
+    height: 60px;
+    width: 320px;
+    display: inline;
+    float: left;
+    position: absolute;  
+}
+
+.card-header{
+    background-color: #00b212;
+    font-weight: 700;
+    color: #eceff1;
+    text-decoration: none;
+    font-size: 20px;
+}
+.card-body{
+    background-color: #F0F8FF;
+}
+
+.card-footer{
+    background-color: #00b212;
+}
+
+/* Estilos para la tabla */
+.table{
+    width: 100%; 
+    table-layout: fixed;
+    color:#000000;
+    font-size: 12px;
+}
+
+#Tabla {
+    overflow-x: auto; 
+}
+
+#Tabla .table-responsive {
+    overflow-x: hidden;
+}
+
+
+/* Estilos para los botones */
+.table .btn {
+    
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+   
+    margin-right: 10px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000000;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 10px;
+    
+}
+.table .btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.table thead tr {
+    background-color: #21671b; 
+    color: #f1f1f1; 
+    
+}
+
+.table tbody tr {
+    background-color: #f5faff; 
+    color: #333; 
+    
+}

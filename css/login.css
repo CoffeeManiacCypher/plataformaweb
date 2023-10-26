@@ -1,0 +1,55 @@
+/* Fondo */
+body{
+    background-image: url(../src/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+}
+
+/* Formulario*/
+.container{
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    background-color: rgb(184, 204, 229);
+    top: 600%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    width: 300px;
+}
+.card-header{
+    background-color: rgb(40, 69, 104);
+    text-align: center;
+    font-size: 20px;
+    color:azure;
+    font-weight: 700;
+}
+.form-label{
+    font-size: 16px;
+    color:rgb(41, 39, 49);
+    font-weight: 400;
+}
+.btn{
+    justify-content: center;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 9px 25px;
+    background: #0b3754;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.card .btn:hover{
+    background-color:#ffbc0e;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.card-footer{
+    background-color: rgb(40, 69, 104);
+}

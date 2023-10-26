@@ -1,0 +1,60 @@
+#logo{
+    height: 250px;
+    width: auto;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 400px;
+    
+}
+
+body{
+    background-image: url(../src/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Seccion 2 - Linea de productos Cristalina */
+
+.pcristalina{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    line-height: 1.5em;
+    color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.lineaCristalina{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+/* Seccion 3 - Linea de productos Flamenco */
+.pflamenco{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    line-height: 1.5em;
+    color: #eceff1;
+    margin-top: 20px;
+}
+
+.lineaFlamenco{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(194,42,152,1) 100%);
+    
+}
+
+
